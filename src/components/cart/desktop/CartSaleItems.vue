@@ -70,18 +70,6 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (max-width: 1280px) {
-  .container-box-com {
-    width: 45%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .container-box-com {
-    width: 90%;
-  }
-}
-
 .body__header-section {
   display: flex;
   justify-content: space-between;
@@ -121,6 +109,7 @@ export default {
 
 .container-box-com {
   height: 350px;
+  width: 45%;
   padding: 20px;
   background: #ffffff;
   border: 1px solid #dedede;

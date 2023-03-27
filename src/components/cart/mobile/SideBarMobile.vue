@@ -65,6 +65,7 @@ export default {
   color: white;
   height: 76px;
   padding: 0px 16px;
+  flex: 1;
 
   display: flex;
   flex-direction: column;
@@ -81,7 +82,7 @@ export default {
 }
 
 .nav-item__create-class {
-  flex: 1;
+  flex: 1.4;
   padding: 0px 7px;
 }
 

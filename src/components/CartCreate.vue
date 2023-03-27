@@ -34,7 +34,7 @@ export default {
     SideBarMobile,
     MainHeaderMobile,
   },
-  name: "IndexPage",
+  name: "CartCreate",
   data() {
     return {
       deviceType: "",

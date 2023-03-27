@@ -23,7 +23,7 @@ export default {
     CartPageMobile,
     CartSold,
   },
-  name: "IndexPage",
+  name: "CartSale",
   data() {
     return {
       deviceType: "",

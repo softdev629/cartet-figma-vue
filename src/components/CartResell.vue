@@ -22,7 +22,7 @@ import SideBarDesktop from "./cart/desktop/SideBarDesktop.vue";
 import CreateBodyMobileVue from "./cart/mobile/CreateBodyMobile.vue";
 export default {
   components: { MainHeader, SideBarDesktop, ResellBody, CreateBodyMobileVue },
-  name: "IndexPage",
+  name: "CartResell",
   data() {
     return {
       deviceType: "",
