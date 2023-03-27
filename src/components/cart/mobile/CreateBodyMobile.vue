@@ -13,14 +13,11 @@
     </div>
 
     <p class="total-price">TOTAL:<span>$6230.00</span></p>
-
-    <CreateModalMobile />
   </div>
 </template>
 
 <script>
 import SearchBar from "../common/SearchBar.vue";
-import CreateModalMobile from "./CreateModalMobile.vue";
 
 export default {
   data() {
@@ -30,7 +27,6 @@ export default {
   },
   components: {
     SearchBar,
-    CreateModalMobile,
   },
   mounted() {
     this.showBottomSheet = true;

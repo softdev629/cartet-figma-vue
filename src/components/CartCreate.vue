@@ -12,6 +12,7 @@
         <MainHeaderMobile />
         <CreateBodyMobileVue />
         <SideBarMobile />
+        <CreateModalMobile />
       </div>
     </div>
   </div>
@@ -24,6 +25,7 @@ import SideBarDesktop from "./cart/desktop/SideBarDesktop.vue";
 import CreateBodyMobileVue from "./cart/mobile/CreateBodyMobile.vue";
 import SideBarMobile from "./cart/mobile/SideBarMobile.vue";
 import MainHeaderMobile from "./cart/mobile/MainHeaderMobile.vue";
+import CreateModalMobile from "./cart/mobile/CreateModalMobile.vue";
 
 export default {
   components: {
@@ -33,6 +35,7 @@ export default {
     CreateBodyMobileVue,
     SideBarMobile,
     MainHeaderMobile,
+    CreateModalMobile,
   },
   name: "CartCreate",
   data() {
@@ -78,5 +81,6 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  position: relative;
 }
 </style>
