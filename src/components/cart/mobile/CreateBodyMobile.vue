@@ -13,13 +13,14 @@
     </div>
 
     <p class="total-price">TOTAL:<span>$6230.00</span></p>
-    <!-- <BottomSheetVue v-if="showBottomSheet" @close="bottomSheet" /> -->
+
+    <CreateModalMobile />
   </div>
 </template>
 
 <script>
-import BottomSheetVue from "../common/BottomSheet.vue";
 import SearchBar from "../common/SearchBar.vue";
+import CreateModalMobile from "./CreateModalMobile.vue";
 
 export default {
   data() {
@@ -28,8 +29,8 @@ export default {
     };
   },
   components: {
-    BottomSheetVue,
     SearchBar,
+    CreateModalMobile,
   },
   mounted() {
     this.showBottomSheet = true;
