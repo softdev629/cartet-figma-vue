@@ -1,15 +1,16 @@
 <template>
   <div class="container">
-    <MainHeader />
     <div v-if="deviceType === 'desktop'">
+      <MainHeader />
       <div class="container-section">
         <SideBarDesktop type="1" />
         <CartPage />
       </div>
     </div>
-    <div v-else>
+    <div v-else style="flex: 1">
       <div class="container-mobile">
-        <CartPageMobile />
+        <MainHeaderMobile />
+        <SideBarMobile />
       </div>
     </div>
   </div>
@@ -19,9 +20,18 @@
 import MainHeader from "./cart/MainHeader.vue";
 import CartPage from "./cart/desktop/CartPage.vue";
 import SideBarDesktop from "./cart/desktop/SideBarDesktop.vue";
-import CartPageMobile from "./cart/mobile/CartPageMobile.vue";
+import MainHeaderMobile from "./cart/mobile/MainHeaderMobile.vue";
+import SideBarMobile from "./cart/mobile/SideBarMobile.vue";
+
 export default {
-  components: { MainHeader, SideBarDesktop, CartPage, CartPageMobile },
+  components: {
+    MainHeader,
+    SideBarDesktop,
+    CartPage,
+    CartPageMobile,
+    MainHeaderMobile,
+    SideBarMobile,
+  },
   name: "CartListResale",
   data() {
     return {
@@ -50,6 +60,7 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .container-section {
@@ -63,6 +74,7 @@ body {
 
 .container-mobile {
   display: flex;
-  justify-content: row;
+  height: 100%;
+  flex-direction: column;
 }
 </style>
