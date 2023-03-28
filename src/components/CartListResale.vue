@@ -10,7 +10,9 @@
     <div v-else style="flex: 1">
       <div class="container-mobile">
         <MainHeaderMobile />
+        <ResellPageMobile />
         <SideBarMobile />
+        <ResaleSetModalMoblie />
       </div>
     </div>
   </div>
@@ -22,15 +24,18 @@ import CartPage from "./cart/desktop/CartPage.vue";
 import SideBarDesktop from "./cart/desktop/SideBarDesktop.vue";
 import MainHeaderMobile from "./cart/mobile/MainHeaderMobile.vue";
 import SideBarMobile from "./cart/mobile/SideBarMobile.vue";
+import ResellPageMobile from "./cart/mobile/ResellPageMobile.vue";
+import ResaleSetModalMoblie from "./cart/mobile/ResaleSetModalMoblie.vue";
 
 export default {
   components: {
     MainHeader,
     SideBarDesktop,
     CartPage,
-    CartPageMobile,
     MainHeaderMobile,
     SideBarMobile,
+    ResellPageMobile,
+    ResaleSetModalMoblie,
   },
   name: "CartListResale",
   data() {
@@ -76,5 +81,6 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  position: relative;
 }
 </style>

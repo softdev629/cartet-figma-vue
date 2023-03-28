@@ -15,6 +15,7 @@ import CartSaleItems from "./cart/desktop/CartSaleItems.vue";
 import CartSold from "./cart/desktop/CartSold.vue";
 import SideBarDesktop from "./cart/desktop/SideBarDesktop.vue";
 import CartPageMobile from "./cart/mobile/CartPageMobile.vue";
+
 export default {
   components: {
     MainHeader,
