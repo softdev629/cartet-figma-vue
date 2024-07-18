@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+# Project Title
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+CARTET
 
-## Recommended IDE Setup
+## Table of Content:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Status](#status)
+
+## About The App
+
+This project is to turn given Figma design into Vue. It's Ecommerce Vue Frontend.
+
+## Screenshots
+
+![SignIn screenshot](./img/screenshot-1.png)
+![Purchase screenshot](./img/screenshot-2.png)
+![List screenshot](./img/screenshot-3.png)
+
+## Technologies
+
+`Vite`, `Vue3`, `Vue-Router`
+
+## Setup
+
+- download or clone the repository
+- run `yarn` to setup necessary node_modules
+- run `yarn dev`
+
+## Status
+
+CARTET is completed.
